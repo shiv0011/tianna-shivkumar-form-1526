@@ -1,0 +1,112 @@
+main
+    {width: 100%;
+    height: auto;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;}
+
+fieldset
+    {background-color: #F5F5F5;
+    border-color: #DDD;}
+
+legend
+    {width: 70%;
+    height: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    background-color: white;
+    border: solid; 
+    border-color: #DDD;
+    font-size: 2rem;}
+
+.box
+    {padding-left: 1rem;}
+
+#fullname
+    {margin-bottom: 2rem;
+    width: 90%;
+    height: 2rem;}
+
+#email
+    {margin-bottom: 2rem;
+    width: 90%;        
+    height: 2rem;}
+
+#message
+    {margin-bottom: 2rem;
+    width: 90%;}
+
+#collect
+    {width: 20rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: #6495ED;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 4px;}
+
+
+
+@media only screen and (min-width: 40em) 
+{
+    main
+        {width: 100%;}
+    
+    legend
+        {width: 50%;}
+    
+    .form-fullname
+        {float: left;
+        width: 50%;}
+    
+    .form-email
+        {float: right;
+        width: 50%;}
+
+    .form-message
+        {clear: both;
+        width: 100%;
+        padding-bottom: 0.5em;}
+    
+    #collect
+        {width: 5rem;} 
+}
+    
+ @media only screen and (min-width: 50rem)
+ {
+     
+    main
+        {width: 80%;
+        margin-left: 10rem;}
+    
+     legend
+        {width: 40%;}
+    
+    .form-fullname
+        {float: left;
+         width: 50%;}
+    
+    .form-email
+        {float: right;
+         width: 50%;}
+
+    .form-message
+        {clear: both;
+        width: 100%;
+        padding-bottom: 0.5em;}
+    
+    #collect
+        {width: 5rem;}  
+     
+     
+     
+     
+     
+}
+    
+    
+    
+    
+    
+    
